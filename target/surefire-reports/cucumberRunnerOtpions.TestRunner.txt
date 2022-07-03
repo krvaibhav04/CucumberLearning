@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: cucumberRunnerOtpions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.719 s <<< FAILURE! - in cucumberRunnerOtpions.TestRunner
+Form Authentication Login(Application Page Open and Form Authentication Login)  Time elapsed: 0.194 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'user is on application page' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("user is on application page")
+public void user_is_on_application_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
