@@ -6,8 +6,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
     //format = {"pretty", "html:target/Destination"},
-    features="src/test/java/features/Login.feature", 
-    glue="stepDefinations")
+    features="src/test/java/bddAutomation/features/Login.feature",
+    glue="bddAutomation/stepDefinations")
 public class TestNGTestRunner extends AbstractTestNGCucumberTests{
 
 }

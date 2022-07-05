@@ -16,7 +16,7 @@ public class stepDefination {
 //	public void user_enter_login_ID_and_password () {
 //		System.out.println("When is getting excecuted");
 //	}
-//	
+
 	
 	@When("^user enter login ID and password with UID \"([^\"]*)\" and PWD=\"([^\"]*)\"$")
     public void user_enter_login_id_and_password_with_uid_something_and_pwdsomething(String strArg1, String strArg2) {
